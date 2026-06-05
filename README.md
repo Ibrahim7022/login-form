@@ -8,7 +8,7 @@ A pixel-faithful implementation of the Figma **Assignment Screens • Login flow
 
 ## Repository
 
-> Push this project to GitHub and add your repository URL here.
+https://github.com/Ibrahim7022/login-form
 
 ## Screens
 
