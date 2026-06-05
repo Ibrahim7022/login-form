@@ -45,8 +45,8 @@ export const StepCard = ({
         exit="exit"
         transition={{ duration: 0.35, ease: [0.4, 0, 0.2, 1] }}
       >
-        {title && <h2 className={styles.title}>{title}</h2>}
-        {children}
+        {title && <h3 className={styles.title}>{title}</h3>}
+        <div className={styles.formContent}>{children}</div>
       </motion.div>
       <div className={styles.footer}>{footer}</div>
     </div>

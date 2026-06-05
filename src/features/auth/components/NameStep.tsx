@@ -43,10 +43,10 @@ export const NameStep = ({
         </>
       }
     >
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-6">
         <TextField
           label="First Name"
-          placeholder="Oliver"
+          placeholder="First Name"
           value={firstName}
           onChange={(e) => onFirstNameChange(e.target.value)}
           error={errors.firstName}

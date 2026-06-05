@@ -8,7 +8,7 @@
   line-height: 1.25rem;
   border-radius: 9999px;
   padding: 0.75rem 2rem;
-  min-width: 7.5rem;
+  width: -webkit-fill-available;
   transition:
     background-color 0.2s ease,
     border-color 0.2s ease,

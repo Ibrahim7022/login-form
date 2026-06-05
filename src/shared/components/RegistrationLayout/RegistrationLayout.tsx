@@ -12,16 +12,16 @@ export const RegistrationLayout = ({ children }: RegistrationLayoutProps) => {
       <div className={styles.pattern} aria-hidden />
       <div className={styles.container}>
         <aside className={styles.sidebar}>
-          <div>
-            <p className="text-sm text-gray-label mb-2">Let&apos;s get started</p>
-            <h1 className="text-4xl font-bold text-navy leading-tight mb-3">
-              Create your account
-            </h1>
-            <p className="text-sm text-gray-label max-w-sm">
+          <div className={styles.sidebarText}>
+            <p className={styles.eyebrow}>Let&apos;s get started</p>
+            <h1 className={styles.heading}>Create your account</h1>
+            <p className={styles.subheading}>
               Follow the steps to create your account
             </p>
           </div>
-          <SidebarIllustration />
+          <div className={styles.illustrationWrap}>
+            <SidebarIllustration className={styles.illustration} />
+          </div>
         </aside>
         <main className={styles.content}>{children}</main>
       </div>
